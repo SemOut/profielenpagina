@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profiel aanmaken</title>
+    <link rel="stylesheet" href="profielmakencss.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1>Welkom bij Next Step Solutions</h1>
+
+    </header>
+    <!--form naam en achternaam en intresses-->
+    <div class="full-form">
+    
+        <form action="" method="">
+        
+            <div class="wrapper">
+            <div class="input-box">
+
+                 <input type="text" id="Voornaam" name="Voornaam" placeholder="Voornaam" required maxlength="50"><br>
+            </div>
+            <div class="input-box">
+                <input type="text" id="Achternaam" name="Achternaam" placeholder="Achternaam" required maxlength="50"><br>
+
+            </div>
+            
+
+            <div class="bdate">
+                <label for="bdate">Geboortedatum</label> <br>
+                <input  type="date" id="bdate" name="bdate" required>
+            </div>
+            
+
+            <br>
+
+            <div class="Geslacht" >
+
+                <label>Geslacht</label> <br>
+
+                <label for="geslacht_man">Man</label>
+                <input type="radio" name="geslacht" id="geslacht_man" value="Man">
+
+                
+                <label for="geslacht_vrouw">Vrouw</label>
+                <input type="radio" name="geslacht" id="geslacht_vrouw" value="Vrouw    ">
+       
+                
+                <label for="geslacht_anders">Anders</label>
+                <input type="radio" name="geslacht" id="geslacht_anders" value="Anders">
+
+            </div>
+             
+
+                <br>
+            
+            <div class="Interesses">
+                <label class="interesse-titel">Interesses</label> <br>
+            <div class="Sport">
+                 <input type="checkbox" id="Sport" >
+                    <label for="Sport">Sport</label> <br>
+            </div>
+
+            <div class="Muziek">
+                <input type="checkbox" id="Muziek" name="Muziek">
+                <label for="Muziek">Muziek</label> <br>
+            </div>
+
+            <div class="Programeren">
+                <input type="checkbox" id="Programeren" name="Programeren">
+                <label for="Programeren">Programeren</label> <br>
+            </div>
+
+            <div class="Games">
+                <input type="checkbox" id="Games" name="Games">
+                <label for="Games">Games</label> <br>
+            </div>   
+
+            <div class="Natuur">
+                <input type="checkbox" id="Natuur" name="Natuur">
+                <label for="Natuur">Natuur</label> <br>
+            </div>
+
+            <div class="Koken">
+                <input type="checkbox" id="Koken" name="Koken">
+                <label for="Koken">Koken</label> <br>
+            </div>  
+
+            <div class="Yoga">
+                <input type="checkbox" id="Yoga" name="Yoga">
+                <label for="Yoga">Yoga en meditatie</label> <br>
+            </div>   
+
+            <div class="Cultuur">
+                <input type="checkbox" id="Cultuur" name="Cultuur">
+                <label for="Cultuur">Cultuur en kunst</label> <br>
+            </div>    
+
+            <div class="Fotograferen">
+                <input type="checkbox" id="Fotograferen" name="Fotograferen">
+                <label for="Fotograferen">Fotograferen</label> <br>
+            </div>
+
+            </div>
+                <br>
+            <div>
+                <button onclick="window.location.href =  '#'"  type="button"  class="btn">Naar Rad</button>
+                <input class="btn" type="submit" value="submit">
+                <input class="btn" type="reset" value="reset"> 
+            </div>
+            </div>
+        
+        </form>
+    </div>
+
+    <footer>Next Step Solutions &copy;</footer>
+</body>
+</html>

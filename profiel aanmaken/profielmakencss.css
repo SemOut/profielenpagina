@@ -1,0 +1,264 @@
+/* Basic CSS Reset */
+
+/* Body and Default Styles */
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    background: url(./images/background-login.png) no-repeat;
+    background-size: cover  ;
+    background-position: center;
+    padding: 20px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* Header Styles */
+header {
+
+    padding-bottom: 5px;
+    padding: 20px;
+    text-align: center;
+    align-self:stretch;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 2px solid rgba(56, 109, 255, 0.964);
+    backdrop-filter: blur 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    
+    
+    
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    margin-top: 20px;
+}
+
+main section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+
+
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    align-self: stretch;
+
+
+
+    background: transparent;
+    border: 2px solid rgba(56, 109, 255, 0.964);
+    backdrop-filter: blur 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+}
+
+  
+    .wrapper{ 
+        width: 420px;
+        background: transparent;
+        border: 2px solid rgba(56, 109, 255, 0.964);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+        padding: 30px 40px;
+        padding-top: 20px;
+        
+    
+    }
+
+
+    /*submit en reset button */
+    .wrapper .btn {
+        width: 100%;
+        height: 45px;
+
+        outline: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 5px;
+        background: transparent;
+        border: 2px solid rgba(56, 109, 255, 0.964);
+        backdrop-filter: blur 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        color: #fff;
+        border-radius: 40px;
+        
+    }
+    
+    .wrapper .btn:hover {
+        background-color: aqua;
+        border: #333;
+    }
+    
+
+    /* naam en voornaam */
+
+    .wrapper .input-box {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+        backdrop-filter: blur 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    
+    }
+    
+    .input-box input {
+        width: 400px;
+        height: 40px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(56, 109, 255, .964);
+        border-radius: 50px;
+        font-size: 16-px;
+        color: #fff;
+        padding: 5px 5px 5px 5px;
+        align-self: center;
+        text-align: center;
+        font-size: large;
+        backdrop-filter: blur 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+       
+    
+    }
+    
+    
+    .input-box input::placeholder {
+        color: #fff;
+        font-size:x-large;
+        text-align: center;
+        
+       
+    
+    }
+    
+    .input-box i{
+        position:absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+    
+    }
+
+
+    .bdate {
+        text-align: center;
+        border-radius: 50px;
+        background-color: transparent;
+        padding: 5px;
+        color: #fff;
+        border: 2px solid rgba(56, 109, 255, .964);
+        backdrop-filter: blur 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+
+    .bdate input {
+        margin: 10px;
+        background-color:transparent;
+        color-scheme: dark;
+    }
+
+
+    .Geslacht {
+        background-color: transparent;
+        text-align: center;
+        border-radius: 50px;
+        color: #fff;
+        border: 2px solid rgba(56, 109, 255, .964);
+        backdrop-filter: blur 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+
+
+
+    .Interesses {
+        background-color: transparent;
+        align-items: center;
+        border-radius: 50px;
+        color: #fff;
+        border: 2px solid rgba(56, 109, 255, .964);
+        backdrop-filter: blur 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+
+
+    .wrapper .interesse-titel{
+        margin-left: 170px;
+    }
+
+    .Sport {
+        margin-left: 170px;
+    }
+
+    .Muziek {
+        margin-left: 170px;
+    }
+
+    .Programeren {
+        margin-left: 170px;
+    }
+    .Games {
+        margin-left: 170px;
+    }
+
+    .Natuur {
+        margin-left: 170px;
+    }
+
+    .Koken {
+        margin-left: 170px;
+    }
+
+    .Yoga {
+        margin-left: 170px;
+    }
+
+    .Cultuur {
+        margin-left: 170px;
+    }
+
+    .Fotograferen {
+        margin-left: 170px;
+    }
+
+
